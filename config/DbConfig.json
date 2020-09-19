@@ -1,0 +1,27 @@
+{
+    "development": {
+        "username": "root",
+        "password": "123456789",
+        "database": "gameresponse",
+        "host": "localhost",
+        "dialect": "mysql",
+        "operatorsAliases": 0,
+        "logging": true
+    },
+    "test": {
+        "username": "root",
+        "password": "123456789",
+        "database": "gameresponse",
+        "host": "localhost",
+        "dialect": "mysql",
+        "operatorsAliases": false
+    },
+    "production": {
+        "username": "root",
+        "password": "123456789",
+        "database": "gameresponse",
+        "host": "localhost",
+        "dialect": "mysql",
+        "operatorsAliases": false
+    }
+}
