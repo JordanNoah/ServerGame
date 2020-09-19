@@ -12,7 +12,7 @@ const apiRoutes = require('./routes/index');
 app.use('/api', apiRoutes);
 
 db.sequelize.sync({
-  force: true
+  // force: true
 }).then(() => {
   app.listen(PORT, () => {
     console.log(`Escuchando el puerto *:${PORT}`);

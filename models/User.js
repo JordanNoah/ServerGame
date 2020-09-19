@@ -6,7 +6,7 @@ module.exports = (db,DataTypes) => {
         email: { type: DataTypes.STRING(200), allowNull: false },
         password: { type: DataTypes.STRING(200), allowNull: false },
         gender:{type:DataTypes.STRING(100),allowNull:false},
-        country: { type: DataTypes.INTEGER(20), allowNull: true }
+        country: { type: DataTypes.STRING(200), allowNull: true }
     });
     return user;
 };
